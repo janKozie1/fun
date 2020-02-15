@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-dupe-keys": "error",
+    "no-alert": "error",
+    "no-implied-eval": "error",
+    "no-invalid-this": "error",
+    "no-lone-blocks": "error",
+    "no-return-await": "error",
+    "no-return-assign": "error",
+    "no-throw-literal": "error",
+    "require-await": "error",
+    "no-shadow": "error",
+    "camelcase": "error",
+    "max-depth": ["error", 3],
+    "max-len": ["error", 130],
+    "no-console": "error",
+    "semi": ["error", "never"]
+  }
+}
